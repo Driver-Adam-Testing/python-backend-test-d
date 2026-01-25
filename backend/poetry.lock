@@ -790,20 +790,20 @@ files = [
 
 [[package]]
 name = "constructs"
-version = "10.4.2"
+version = "10.4.5"
 description = "A programming model for software-defined state"
 optional = false
-python-versions = "~=3.8"
+python-versions = "~=3.9"
 groups = ["main"]
 files = [
-    {file = "constructs-10.4.2-py3-none-any.whl", hash = "sha256:1f0f59b004edebfde0f826340698b8c34611f57848139b7954904c61645f13c1"},
-    {file = "constructs-10.4.2.tar.gz", hash = "sha256:ce54724360fffe10bab27d8a081844eb81f5ace7d7c62c84b719c49f164d5307"},
+    {file = "constructs-10.4.5-py3-none-any.whl", hash = "sha256:e63d6675ba2e8a9076db8df1d4c7af78efdb96182ba28abe938384ba321e4b81"},
+    {file = "constructs-10.4.5.tar.gz", hash = "sha256:efa0f9e4fe65bd334bad719d00e0c8d9e3e4c6d873da8e874e67517a029c190b"},
 ]
 
 [package.dependencies]
-jsii = ">=1.102.0,<2.0.0"
+jsii = ">=1.125.0,<2.0.0"
 publication = ">=0.0.3"
-typeguard = ">=2.13.3,<2.14.0"
+typeguard = "2.13.3"
 
 [[package]]
 name = "coverage"
@@ -2194,24 +2194,24 @@ files = [
 
 [[package]]
 name = "jsii"
-version = "1.108.0"
+version = "1.125.0"
 description = "Python client for jsii runtime"
 optional = false
-python-versions = "~=3.8"
+python-versions = "~=3.9"
 groups = ["main"]
 files = [
-    {file = "jsii-1.108.0-py3-none-any.whl", hash = "sha256:d6c99671ab44520069ad6198e3b07379ae9c075bcb53b8a16455c1beb10288ea"},
-    {file = "jsii-1.108.0.tar.gz", hash = "sha256:f1053a414ac117c6ecae7208c5ca4cb6d10ca3420c69e30f8b9cca64cc37e61b"},
+    {file = "jsii-1.125.0-py3-none-any.whl", hash = "sha256:895b1f27f67e1fac3797abeeeb0ded0e1a64a155a32e1547174735d293eca0cb"},
+    {file = "jsii-1.125.0.tar.gz", hash = "sha256:37664c25ac8dfaf6c1bab214ff58eec62d515e70311c349240b43bdd733beccb"},
 ]
 
 [package.dependencies]
 attrs = ">=21.2,<26.0"
-cattrs = ">=1.8,<24.2"
-importlib-resources = ">=5.2.0"
+cattrs = ">=1.8,<25.4"
+importlib_resources = ">=5.2.0"
 publication = ">=0.0.3"
 python-dateutil = "*"
-typeguard = ">=2.13.3,<4.5.0"
-typing-extensions = ">=3.8,<5.0"
+typeguard = "2.13.3"
+typing_extensions = ">=3.8,<5.0"
 
 [[package]]
 name = "jsonschema"
